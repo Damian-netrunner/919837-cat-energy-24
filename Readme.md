@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Дмитрий](https://up.htmlacademy.ru/adaptive/24/user/919837).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Дроганов] (https://htmlacademy.ru/profile/dmdragon)
 
 ---
 
