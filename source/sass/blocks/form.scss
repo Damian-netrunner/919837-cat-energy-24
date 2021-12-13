@@ -1,0 +1,37 @@
+
+
+.form {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: normal;
+  .form__lead {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  .form__heading {
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: normal;
+    text-transform: none;
+  }
+  .form__description{
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: none;
+  }
+  .form__button{
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: $basic_green;
+  }
+  .form__input{
+    text-transform: uppercase;
+    color: $darkest-grey;
+  }
+}

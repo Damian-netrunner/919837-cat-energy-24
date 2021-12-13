@@ -1,0 +1,16 @@
+.features {
+  .features__heading {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: normal;
+  }
+  .features__list {
+    padding: 0; /*Правильный сброс стилей списка?*/
+  }
+  .features__item {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 18px;
+    list-style: none;
+  }
+}
