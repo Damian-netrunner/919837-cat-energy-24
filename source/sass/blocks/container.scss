@@ -1,3 +1,24 @@
-/* .container {
+.container {
   margin: 0 auto;
-} */
+}
+
+@media (max-width: $mobile-width-only) {
+  .container {
+    padding: 0 40px;
+    width: 320px;
+  }
+}
+
+@media (min-width: $tablet-width) and (max-width: 1399px) {
+  .container {
+    padding: 0 40px;
+    width: 768px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .container {
+    padding: 0 40px;
+    width: 1400x;
+  }
+}

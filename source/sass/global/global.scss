@@ -5,7 +5,17 @@
   font-weight: 400;
   font-style: normal;
   font-weight: normal;
+  height: 100%;
 }
 *, *:after, *:before {
 box-sizing: inherit;
 }
+
+.page__body {
+  min-height: 100%;
+}
+// Viewports
+
+$tablet-width: 768px;
+$desktop-width: 1400px;
+$mobile-width-only: 767px;
