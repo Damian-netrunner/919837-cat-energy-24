@@ -20,3 +20,30 @@
     line-height: 16px;
   }
 }
+
+
+.programms__heading {
+  margin: 0;
+}
+
+
+.programms .container {
+  outline: 2px solid #68B738;
+ }
+
+
+
+@media (max-width: $mobile-width-only) {
+  .programms__block  {
+    height: 266px;
+  }
+}
+
+@media (min-width: $tablet-width) and (max-width: 1399px) {
+  .programms .container{
+    height: 100%;
+  }
+  .programms__block {
+    height: 372px;
+  }
+}

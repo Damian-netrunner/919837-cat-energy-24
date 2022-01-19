@@ -14,3 +14,40 @@
     list-style: none;
   }
 }
+
+.features__heading {
+  margin: 0;
+}
+
+.features .container {
+  outline: 2px solid #68B738;
+}
+
+@media (min-width: $tablet-width) and (max-width: 1399px) {
+  .features .container{
+    height: 676px;
+  }
+  .features__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .features__item{
+    width: 237px;
+    height: 280px;
+    outline: 2px solid #68B738;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .features__list{
+    display: flex;
+    justify-content: space-between;
+}
+  .features__item{
+    width: 230px;
+    height: 280px;
+    outline: 2px solid #68B738;
+  }
+}

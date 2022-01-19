@@ -1,6 +1,5 @@
-
 .page {
-  box-sizing: border-box ;
+  box-sizing: border-box;
   font-family: Oswald;
   font-weight: 400;
   font-style: normal;
@@ -14,8 +13,8 @@ box-sizing: inherit;
 .page__body {
   min-height: 100%;
 }
-// Viewports
 
-$tablet-width: 768px;
-$desktop-width: 1400px;
-$mobile-width-only: 767px;
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}

@@ -1,5 +1,4 @@
 .cat-food {
-  background-color: $basic_green;
   .cat-food__heading{
     color: white;
     text-transform: uppercase;
@@ -21,5 +20,22 @@
     font-size: 14px;
     line-height: 26px;
     color: white;
+  }
+}
+
+.cat-food .container {
+  outline: 2px solid #68B738;
+  background-color: #68b73880;
+}
+
+@media (max-width: $mobile-width-only) {
+  .cat-food .container{
+    height: 460px;
+  }
+}
+
+@media (min-width: $tablet-width) and (max-width: 1399px) {
+  .cat-food .container{
+    height: 870px;
   }
 }
