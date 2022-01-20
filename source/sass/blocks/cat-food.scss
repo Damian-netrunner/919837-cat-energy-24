@@ -39,3 +39,9 @@
     height: 870px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .cat-food .container{
+    height: 667px;
+  }
+}

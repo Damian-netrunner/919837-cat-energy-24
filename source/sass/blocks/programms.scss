@@ -47,3 +47,9 @@
     height: 372px;
   }
 }
+@media (min-width: $desktop-width) {
+  .programms .container{
+    display: flex;
+    height: 370px;
+  }
+}
