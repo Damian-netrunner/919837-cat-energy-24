@@ -1,46 +1,40 @@
-.programms {
-  .programms__block {
-    background-color: $basic_grey;
-  }
-  .programms__heading {
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: normal;
-  }
-  .programms__paragraph {
-    font-family: Arial;
-    font-size: 14px;
-    line-height: 18px;
-  }
-  .programms__link {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-    line-height: 16px;
-  }
+.programms__block {
+  background-color: $basic_grey;
 }
-
+.programms__heading {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+}
+.programms__paragraph {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 18px;
+}
+.programms__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  line-height: 16px;
+}
 
 .programms__heading {
   margin: 0;
 }
 
-
 .programms .container {
-  outline: 2px solid #68B738;
- }
-
-
+  outline: 2px solid #68b738;
+}
 
 @media (max-width: $mobile-width-only) {
-  .programms__block  {
+  .programms__block {
     height: 266px;
   }
 }
 
 @media (min-width: $tablet-width) and (max-width: 1399px) {
-  .programms .container{
+  .programms .container {
     height: 100%;
   }
   .programms__block {
@@ -48,7 +42,7 @@
   }
 }
 @media (min-width: $desktop-width) {
-  .programms .container{
+  .programms .container {
     display: flex;
     height: 370px;
   }

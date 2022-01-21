@@ -1,47 +1,45 @@
-.cat-food {
-  .cat-food__heading{
-    color: white;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 36px;
-  }
+.cat-food__heading {
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+}
 
-  .cat-food__paragraph {
-    color: white;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 14px;
-  }
+.cat-food__paragraph {
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+}
 
-  .cat-food__link{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 26px;
-    color: white;
-  }
+.cat-food__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 26px;
+  color: white;
 }
 
 .cat-food .container {
-  outline: 2px solid #68B738;
+  outline: 2px solid #68b738;
   background-color: #68b73880;
 }
 
 @media (max-width: $mobile-width-only) {
-  .cat-food .container{
+  .cat-food .container {
     height: 460px;
   }
 }
 
 @media (min-width: $tablet-width) and (max-width: 1399px) {
-  .cat-food .container{
+  .cat-food .container {
     height: 870px;
   }
 }
 
 @media (min-width: $desktop-width) {
-  .cat-food .container{
+  .cat-food .container {
     height: 667px;
   }
 }

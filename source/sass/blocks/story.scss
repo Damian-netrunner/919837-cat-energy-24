@@ -1,42 +1,35 @@
-.story {
-  .story__heading {
-    font-size: 36px;
-    line-height: 40px;
-    font-weight: normal;
-  }
-  .story__paragraph {
-    font-family: Arial;
-    font-size: 14px;
-    line-height: 18px;
-  }
+.story__heading {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: normal;
+}
+.story__paragraph {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .story .container {
-  outline: 2px solid #68B738;
+  outline: 2px solid #68b738;
 }
 
 .story__heading {
   margin: 0;
 }
 
-
-
 @media (max-width: $mobile-width-only) {
-  .story  {
+  .story {
     height: 720px;
   }
 
   .story .container {
-    background-color: #EAEAEA;
+    background-color: #eaeaea;
     height: 100%;
   }
 }
 
-
-
 @media (min-width: $tablet-width) and (max-width: 1399px) {
-  .story  {
+  .story {
     height: 720px;
   }
 }
-

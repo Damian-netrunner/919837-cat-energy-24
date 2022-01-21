@@ -1,37 +1,34 @@
-.additional-products {
-  .additional-products__heading {
-    font-size: 24px;
-    line-height: 24px;
-    font-weight: normal;
-  }
-  .additional-products__list {
-    list-style: none;
-  }
-  .additional-products__title {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 16px;
-    text-transform: uppercase;
-  }
-  .additional-products__count /*можно ли так перечислять?*/ {
-    font-family: Arial;
-    font-size: 14px;
-    line-height: 14px;
-    font-weight: normal;
-  }
-  .additional-products__price {
-    font-family: Arial;
-    font-size: 14px;
-    line-height: 14px;
-    font-weight: normal;
-  }
-  .additional-products__order {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    font-size: 16px;
-    line-height: 20px;
-    background-color: $basic_green;
-  }
-
+.additional-products__heading {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: normal;
+}
+.additional-products__list {
+  list-style: none;
+}
+.additional-products__title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.additional-products__count /*можно ли так перечислять?*/ {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: normal;
+}
+.additional-products__price {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: normal;
+}
+.additional-products__order {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: $basic_green;
 }
