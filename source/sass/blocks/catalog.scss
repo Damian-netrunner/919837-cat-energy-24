@@ -1,4 +1,5 @@
-.catalog {
+
+
   .catalog__heading {
     font-size: 36px;
     line-height: 36px;
@@ -46,4 +47,31 @@
     background-color: $basic_grey;
     color: black;
   }
+
+
+.catalog .container{
+  outline: 2px solid #68B738;
+}
+
+.additional-products .container{
+  outline: 2px solid #68B738;
+}
+
+
+@media (max-width: $mobile-width-only) {
+  .catalog .container{
+height: 1600px;
+  }
+}
+
+@media (min-width: $tablet-width) and (max-width: 1399px) {
+  .catalog .container{
+    height: 2397px;
+}
+
+@media (min-width: $desktop-width) {
+  .catalog .container{
+    height: 2397px;
+  }
+}
 }
