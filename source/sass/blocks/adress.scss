@@ -22,5 +22,8 @@
 @media (max-width: $mobile-width-only) {
   .adress  {
     height: 112x;
+    display: flex;
+    align-items: center;
+}
   }
 }

@@ -23,6 +23,12 @@
   outline: 2px solid #68B738;
 }
 
+@media (max-width: $mobile-width-only) {
+  .features__item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
 @media (min-width: $tablet-width) and (max-width: 1399px) {
   .features .container{
     height: 676px;
@@ -38,7 +44,6 @@
     outline: 2px solid #68B738;
   }
 }
-
 
 @media (min-width: $desktop-width) {
   .features__list{

@@ -10,3 +10,17 @@
     line-height: 12px;
   }
 }
+
+@media (max-width: $mobile-width-only) {
+  .result{
+    display: flex;
+  justify-content: space-between;
+  }
+  .estimate__info {
+    text-align: center;
+  }
+  .story__paragraph {
+    padding-top: 40px;
+  }
+
+}

@@ -22,16 +22,24 @@
   outline: 2px solid #68B738;
 }
 
-
-
  @media (max-width: $mobile-width-only) {
   .header .container {
     display: flex;
     flex-direction: column;
     outline: 2px solid #68B738;
   }
-
-
+  .header__logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  .header-nav__link{
+    display: block;
+    padding: 23px 20px;
+    color: #111;
+    text-decoration: none;
+    border-top: 1px solid #e6e6e6;
+  }
 
 }
 
@@ -39,6 +47,7 @@
  .header .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
  }
  .header-nav__list {
    display: flex;

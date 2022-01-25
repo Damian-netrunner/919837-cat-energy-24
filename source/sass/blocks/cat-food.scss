@@ -1,7 +1,6 @@
 .cat-food {
   .cat-food__heading{
     color: white;
-    text-transform: uppercase;
     font-weight: normal;
     font-size: 36px;
     line-height: 36px;
@@ -20,8 +19,17 @@
     font-size: 14px;
     line-height: 26px;
     color: white;
+    background-color: #5eaa2f;
+    width: 100%;
+    padding: 11px 22px;
+    display: block;
+    text-align: center;
   }
 }
+
+
+
+
 
 .cat-food .container {
   outline: 2px solid #68B738;
@@ -32,6 +40,10 @@
   .cat-food .container{
     height: 460px;
   }
+  .cat-food__heading {
+    margin: 0;
+  }
+
 }
 
 @media (min-width: $tablet-width) and (max-width: 1399px) {
