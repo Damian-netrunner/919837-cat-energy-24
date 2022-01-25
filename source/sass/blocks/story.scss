@@ -4,6 +4,7 @@
     line-height: 40px;
     font-weight: normal;
   }
+
   .story__paragraph {
     font-family: Arial;
     font-size: 14px;
@@ -22,7 +23,7 @@
 
 
 @media (max-width: $mobile-width-only) {
-  .story  {
+  .story {
     height: 720px;
   }
 
@@ -35,8 +36,7 @@
 
 
 @media (min-width: $tablet-width) and (max-width: 1399px) {
-  .story  {
+  .story {
     height: 720px;
   }
 }
-

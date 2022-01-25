@@ -4,9 +4,12 @@
     line-height: 40px;
     font-weight: normal;
   }
+
   .features__list {
-    padding: 0; /*Правильный сброс стилей списка?*/
+    padding: 0;
+    /*Правильный сброс стилей списка?*/
   }
+
   .features__item {
     font-family: Arial;
     font-size: 14px;
@@ -29,16 +32,19 @@
     padding-bottom: 20px;
   }
 }
+
 @media (min-width: $tablet-width) and (max-width: 1399px) {
-  .features .container{
+  .features .container {
     height: 676px;
   }
-  .features__list{
+
+  .features__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .features__item{
+
+  .features__item {
     width: 237px;
     height: 280px;
     outline: 2px solid #68B738;
@@ -46,11 +52,12 @@
 }
 
 @media (min-width: $desktop-width) {
-  .features__list{
+  .features__list {
     display: flex;
     justify-content: space-between;
-}
-  .features__item{
+  }
+
+  .features__item {
     width: 230px;
     height: 280px;
     outline: 2px solid #68B738;

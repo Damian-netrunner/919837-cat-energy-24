@@ -2,16 +2,19 @@
   .programms__block {
     background-color: $basic_grey;
   }
+
   .programms__heading {
     text-transform: uppercase;
     font-size: 24px;
     font-weight: normal;
   }
+
   .programms__paragraph {
     font-family: Arial;
     font-size: 14px;
     line-height: 18px;
   }
+
   .programms__link {
     text-transform: uppercase;
     text-decoration: none;
@@ -29,37 +32,40 @@
 
 .programms .container {
   outline: 2px solid #68B738;
- }
+}
 
 
 
 @media (max-width: $mobile-width-only) {
 
-    .programms__block {
-      height: 210px;
-      padding: 20px;
-      margin-top: 20px;
-      margin-bottom:20px;
-    }
-    .programms__link{
-      border-top: 1px solid #D9D9D9;
-      width: 100%;
-      display: block;
-      text-align: center;
-      padding-top: 10px;
-    }
+  .programms__block {
+    height: 210px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .programms__link {
+    border-top: 1px solid #D9D9D9;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+  }
 }
 
 @media (min-width: $tablet-width) and (max-width: 1399px) {
-  .programms .container{
+  .programms .container {
     height: 100%;
   }
+
   .programms__block {
     height: 372px;
   }
 }
+
 @media (min-width: $desktop-width) {
-  .programms .container{
+  .programms .container {
     display: flex;
     height: 370px;
   }
